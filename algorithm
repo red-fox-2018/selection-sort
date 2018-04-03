@@ -1,0 +1,23 @@
+- buat sebuah function yang akan menerima array berisi sekumpulan angka.
+
+- buat sebuah perulangan dengan variable "i" sama dengan 0 dan dengan kondisi perulangan akan
+
+  terus dilakukan sebanyak jumlah angka yang diterima dari parameter.
+
+  * buat sebuah nested looping dengan variable "j" sama dengan "i" dan dengan kondisi perulangan
+
+    terus dilakukan selama "j" masih lebih kecil dari jumlah total angka yang diterima.
+
+    # sediakan sebuah variable "temp" untuk menyimpan angka sementara.
+
+    # buat sebuah kodisi jika "num" index ke "j" lebih kecil dari "num" index ke "j", maka:
+
+      * ganti isi value "temp" dengan nilai "num" index ke "i".
+
+      * ganti isi "num" index ke "i" dengan value "num" index ke "j"
+
+      * ganti isi "num" index ke "j" dengan value yang sebelumnya disimpan didalam variable "temp"
+
+    # jika proses perulangan telah selesai, maka:
+
+      => return "num"
